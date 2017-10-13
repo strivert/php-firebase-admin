@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>	
+
+<script type="text/javascript" src="http://player.longtailvideo.com/jwplayer.js"></script>
+</head>
+<body>
+
+	
+	<div class="OverviewVideoWrapper">
+		<div class="VideoPlayer">
+			<div id="player1"></div>	  
+  		</div>
+	</div>
+
+	<script type="text/javascript">
+		jwplayer("player1").setup({
+			skin: "http://content.longtailvideo.com/skins/glow/glow.zip",
+			stretching: "fill",
+			flashplayer: "http://player.longtailvideo.com/player.swf",
+			image: "http://s1-www.longtailvideo.com/v3_4_9/images/jw-player/lWMJeVvV-720.jpg",
+			width: 650,
+			height:500,
+			levels: [
+               {file: "http://192.168.1.40/anita/data/video/1/mahoc.flv"} 
+                        ]
+		});
+	</script>
+</body/>
